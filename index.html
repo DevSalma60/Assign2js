@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex align-items-center justify-content-center flex-column mt-5 text-black"
+    >
+      <h1 class="fw-bold head pt-2">Quote of the Day</h1>
+      <p class="prg prgp pb-3">
+        Press the button below to recieve a random quote!
+      </p>
+      <button onclick="getQuote()" class="btnfs text-white">New Quote</button>
+      <p class="prg qoutep" id="quote"></p>
+      <p class="prg authp" id="auother"></p>
+    </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
